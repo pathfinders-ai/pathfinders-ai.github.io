@@ -1,0 +1,164 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#videoIndex {
+    position: fixed;
+    /** z-index: -1; **/
+}
+
+/* All */
+.header-text {
+    font-weight: 700;
+}
+
+.dots:after {
+    content: '';
+    position: absolute;
+    left: 20%;
+    top: 10px;
+    height: 5px;
+    width: 10px;
+    background-color: #333;
+}
+.dot-left:before,
+.dots:before {
+    content: '';
+    position: absolute;
+    right: 20%;
+    top: 10px;
+    height: 5px;
+    width: 10px;
+    background-color: #333;
+}
+h3.header-text {
+    font-size: 30px;
+}
+h4.header-text {
+    font-size: 24px;
+}
+/* Navbar  */
+.landing-page .navbar-top {
+    position: fixed;
+}
+.scrolled {
+    background-color: #FFF;
+    color: #CCC;
+}
+.scrolled.navbar-transparent .navbar-nav > li > a {
+    color: #000;
+} 
+
+
+/* Hero */
+.description h2, .description h5 {
+    text-align: center;
+}
+.landing-page .parallax .description h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.landing-page .parallax .description h5 {
+    font-size: 40px;
+}
+/* Products */
+.landing-page .section-features {
+    margin: 0;
+}
+
+.landing-page .section.section-presentation, 
+.landing-page .section.section-demo,
+.landing-page .section.section-features,
+.landing-page .section.section-testimonial  {
+    margin-top: 0;
+}
+.landing-page .section.section-presentation img {
+    position: initial;
+    top:initial;
+    left:initial;
+    height: auto;
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+/* Landing */
+.section-clients p.what_is {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    /* font-weight: 700; */
+    line-height: normal;
+}
+/* Services */
+.landing-page .section-features .card {
+    background-color: #000;
+    border: 0;
+    border-radius: 0;
+    box-shadow: -10px 10px 10px #000;
+    min-height: 340px;
+}
+.section-features .card .icon,
+.section-features .card .text,
+.landing-page .section-features .card p {
+    text-align: left;
+    color: #FFF;
+}
+.landing-page .section-features .card h4 {
+    font-weight: 700;
+}
+.landing-page .section-features .card img {
+
+}
+/* Contact Section */
+.section-contact {
+    background-color: #000;
+}
+.section-contact .header-text {
+    color: #FFF;
+}
+.section-contact .form-group input,
+.section-contact .form-group textarea{
+    border-radius: 0;
+}
+.section-contact button {
+    border-radius: 0;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    transition: all ease 0.4s;
+}
+.section-contact button:hover {
+    transition: all ease 0.4s;
+    border-radius: 0;
+    color: #000;
+    background-color: #AAA;
+    border: 1px solid #AAA;
+}
+/* Footer */
+footer.footer {
+    position: relative;
+}
+
+/* Queries */
+
+@media(min-aspect-ratio: 16/9){
+    #videoIndex {
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    #videoIndex {
+        width: auto;
+        height: 100%;
+    }
+}
+@media(max-width: 767px ) {
+    #videoIndex {
+        display: none;
+    }
+    body {
+        background: url('../videos/farm_video_poster.png');
+        background-size: cover;
+    }
+}
