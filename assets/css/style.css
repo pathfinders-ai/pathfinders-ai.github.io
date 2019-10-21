@@ -126,7 +126,9 @@ h4.header-text {
     background-color: #FFF;
     border: 1px solid #FFF;
     transition: all ease 0.4s;
+
 }
+.section-contact button:focus,
 .section-contact button:hover {
     transition: all ease 0.4s;
     border-radius: 0;
