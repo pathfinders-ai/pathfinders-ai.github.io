@@ -11,17 +11,20 @@
         <link href="assets/css/bootstrap.css" rel="stylesheet" />
         <link href="assets/css/landing-page.css" rel="stylesheet"/>
         <link href="assets/css/style.css" rel="stylesheet"/>
-
+        <link rel="stylesheet" href="assets/css/animate.css">
         <!--     Fonts and icons     -->
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
         <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700&display=swap" rel="stylesheet">
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+        <script>
+            new WOW().init();
+        </script>
     </head>
     <body class="landing-page landing-page1">
-        <nav class="navbar navbar-transparent navbar-top fixed-top" role="navigation">
+        <nav class="navbar navbar-transparent navbar-top fixed-top wow fadeInDown" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -78,9 +81,10 @@
                     <div class="row">
                         <div class="col-md-11 col-md-offset-1">
                             <div class="description">
-                                <h2>Pathfinders</h2>
+                                <h2 data-wow-duration="1s" data-wow-delay="1s"  
+                                class="wow fadeIn">Pathfinders</h2>
                                 <br>
-                                <h5>We believe inteligence makes our lives better.</h5>
+                                <h5 class="wow fadeInUp">We believe inteligence makes our lives better.</h5>
                             </div>
                         </div>
                     </div>
@@ -96,7 +100,7 @@
             <div class="section section-clients">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 wow fadeInRight" data-wow-duration="2s" data-wow-offset="300">
                             <h3 class="header-text">Our Mission</h3>
                             <p class="what_is">
                                 Utilising our modular software development approach, we are on a mission to create Artificial Intelligence assisted software solutions to solve real world problems.
@@ -105,7 +109,7 @@
                             <b>Pathfinders.Ai</b> is an Australian based and owned full stack dev machine learning consultancy that prides itself on its ability to drive solution driven results for our customers.
                             </p>
                         </div>
-                        <div class="col-md-offset-1 col-md-5 hidden-xs">
+                        <div class="col-md-offset-1 col-md-5 hidden-xs wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
                             <img src="assets/img/ai.svg" alt="Ai">
                         </div>
                     </div>
@@ -116,7 +120,7 @@
                     <div class="container">
                         <h3 class="header-text text-center">What We Do</h3>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="card">
                                     <div class="icon">
                                         <i class="pe-7s-graph1"></i>
@@ -127,7 +131,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="card">
                                     <div class="icon">
                                         <i class="pe-7s-angle-down-circle"></i>
@@ -138,7 +142,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 wow fadeInUp" data-wow-delay="0.9s">
                                     <div class="card">
                                         <div class="icon">
                                             <i class="pe-7s-tools"></i>
@@ -149,7 +153,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 wow fadeInUp" data-wow-delay="1.2s">
                                 <div class="card">
                                     <div class="icon">
                                         <i class="pe-7s-shuffle"></i>
@@ -168,7 +172,7 @@
                 <div class="container">
                     <h2 class="header-text text-center">How We're Different</h2>
                     <!-- Text left -->
-                    <div class="row">
+                    <div class="row wow fadeInRight">
                         <div class="col-md-5">
                             <h4 class="header-text text-uppercase font-weight-bold">Implementation</h4>
                             <p>We’re a group of doers. We know what it takes to get machine learning embedded into a business and won’t get bogged down with strategic powerpoint decks that end up in the recycling bin.</p>
@@ -180,7 +184,7 @@
                         </div>
                     </div>
                     <!-- Text Right -->
-                    <div class="row">
+                    <div class="row wow fadeInLeft">
                         <div class="col-md-5 hidden-xs">
                             <div class="product-image">
                                 <img src="assets/img/photos/board-game-businessman-challenge-1.png" class="img-fluid" />
@@ -193,7 +197,7 @@
                     </div>
                     <!--  -->
                     <!-- Text left -->
-                    <div class="row">
+                    <div class="row wow fadeInRight">
                         <div class="col-md-5">
                             <h4 class="header-text text-uppercase font-weight-bold">EXPERTISE</h4>
                             <p>Hiring a good data scientist is difficult. We have assembled some of the best data scientists around with excellent track records in building and managing data teams and delivering projects. Through our community activities, we also have access to some of the best in the business.</p>
@@ -205,7 +209,7 @@
                         </div>
                     </div>
                     <!-- Text Right -->
-                    <div class="row">
+                    <div class="row wow fadeInLeft">
                         <div class="col-md-5 hidden-xs">
                             <div class="product-image">
                                 <img src="assets/img/photos/checklist-composition-handwriting-1226398.png" class="img-fluid" />
@@ -218,7 +222,7 @@
                     </div>
                     <!--  -->
                     <!-- Text left -->
-                    <div class="row">
+                    <div class="row wow fadeInRight">
                             <div class="col-md-5">
                                 <h4 class="header-text text-uppercase font-weight-bold">OPENNESS</h4>
                                 <p>We share knowledge. It’s not magic, and we have no need for smoke and mirrors. We explain the inner workings of our tools in accompanying reports, and we openly release our work to be evaluated in the wild. Our products have no lock in and we are completely vendor neutral.</p>
@@ -230,7 +234,7 @@
                             </div>
                         </div>
                         <!-- Text Right -->
-                        <div class="row">
+                        <div class="row wow fadeInLeft">
                             <div class="col-md-5 hidden-xs">
                                 <div class="product-image">
                                     <img src="assets/img/photos/charts-data-desk-669615.png" class="img-fluid" />
@@ -252,7 +256,7 @@
                             <div class="info">
                                 <h3 class="header-text text-center">Get In Touch With Us</h3>
                             </div>
-                            <form name="contactForm">
+                            <form class="wow fadeInUp" name="contactForm" method="POST" action="https://formspree.io/paul.steven.conyngham@gmail.com">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Name">
                                 </div>
@@ -263,7 +267,7 @@
                                     <input type="tel" name="phone" class="form-control" id="exampleInputPhone" placeholder="Contact Number">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" id="exampleInputMessage" placeholder="Message"></textarea>
+                                    <textarea class="form-control" name="message" id="exampleInputMessage" placeholder="Message" rows="4"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
                             </form>
