@@ -4,33 +4,21 @@
 
 #videoIndex {
     position: fixed;
-    /** z-index: -1; **/
+    z-index: -5;
 }
-
+.overlay {
+    position: fixed;
+    min-height: 720px;
+    width: 1280px;
+    opacity: 0.4;
+    background-color: #000;
+    z-index: -4;
+}
 /* All */
 .header-text {
     font-weight: 700;
 }
 
-.dots:after {
-    content: '';
-    position: absolute;
-    left: 20%;
-    top: 10px;
-    height: 5px;
-    width: 10px;
-    background-color: #333;
-}
-.dot-left:before,
-.dots:before {
-    content: '';
-    position: absolute;
-    right: 20%;
-    top: 10px;
-    height: 5px;
-    width: 10px;
-    background-color: #333;
-}
 h3.header-text {
     font-size: 30px;
 }
@@ -40,13 +28,15 @@ h4.header-text {
 /* Navbar  */
 .landing-page .navbar-top {
     position: fixed;
+    border-radius: 0;
+    border: 0 0 1px 0 solid #FFF;
 }
 .scrolled {
-    background-color: #FFF;
-    color: #CCC;
+    background-color: #000;
+    color: #FFF;
 }
 .scrolled.navbar-transparent .navbar-nav > li > a {
-    color: #000;
+    color: #FFF;
 } 
 
 
@@ -90,6 +80,9 @@ h4.header-text {
     line-height: normal;
 }
 /* Services */
+.landing-page .section-features {
+    background-color: #EEE;
+}
 .landing-page .section-features .card {
     background-color: #000;
     border: 0;
@@ -105,9 +98,6 @@ h4.header-text {
 }
 .landing-page .section-features .card h4 {
     font-weight: 700;
-}
-.landing-page .section-features .card img {
-
 }
 /* Contact Section */
 .section-contact {
