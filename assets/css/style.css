@@ -74,6 +74,11 @@ h4.header-text {
 .product-image img {
     width: 100%;
     height: auto;
+    /* Products */
+    width: 395.182px;
+    height:288px;
+    font-family: inherit;
+}
 }
 /* Landing */
 .section-clients p.what_is {
@@ -129,6 +134,9 @@ h4.header-text {
     background-color: #AAA;
     border: 1px solid #AAA;
 }
+
+
+
 /* Footer */
 footer.footer {
     position: relative;
