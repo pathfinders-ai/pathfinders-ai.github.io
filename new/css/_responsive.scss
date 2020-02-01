@@ -17,12 +17,11 @@
       }
     }
   }
-  .main {
-    width: calc(100% - 21vw);
-  }
+
   .path-container {
     padding: 0 6vw;
   }
+  
   .home-section1 .title {
     font-size: 5.2vw;
     margin-bottom: 1.5vw;
@@ -149,27 +148,95 @@
   .main.contact-page {
     padding-top: 6.77vw;
   }
-  .main.who-we-are-page{
+  .main.who-we-are-page {
     padding-top: 6.7vw;
   }
   .main.who-we-are-page h1 {
-    font-size:4.16vw;
+    font-size: 4.16vw;
     margin-bottom: 4.6vw;
+  }
+  .main.who-we-are-page p {
+    line-height: 2vw;
+    font-size: 1.25vw;
+  }
+  .home-page-body .path-container{
+    padding-left: 27vw;
+  }
+  .main {
+    width: 100%;
+    padding-left: 21vw;
+  }
+  .about h1 {
+    font-size: 4.16vw;
+    margin-bottom: 1.56vw;
 }
-.main.who-we-are-page p{
-  line-height: 2vw;
-  font-size: 1.25vw;
+.about{
+  padding-top: 5.2vw;
+}
+.about .about-desc{
+  font-size: 1vw;
+}
+.about .hero-sub-heading {
+  font-size: 1.56vw;
+  margin-top: 2.6vw;
+}
+.about .hero-sub-desc{
+  font-size: 1.14vw;
+}
+.about .about-sec2 .about-sec2-subsec{
+  margin-top: 7.3vw;
+}
+.about .about-sec2 .about-sec2-subsec p{
+  font-size: 1vw;
+  line-height: 1.9vw;
 }
 }
 
+@media (min-width: 992px) {
+  
+  
+  .menu-link-reverse a {
+    color: #fff !important;
+  }
+  .home-page-body {
+    .sidebar .logo:before{
+      border-bottom-right-radius: 20px;
+    }
+    .main {
+      padding-left: 0;
+    
+    }
+    .sidebar nav ul li.active a {
+      color: #9d9d9d;
+    }
+    
+  }
+  .sidebar nav ul li.before {
+    border-bottom-right-radius: 20px;
+  }
+  .sidebar nav ul li.after {
+    border-top-right-radius: 20px;
+  }
+  .contact-page-body{
+    .sidebar nav:after{
+    border-top-right-radius: 20px;
+
+    }
+  }
+}
 @media (max-width: 991px) {
+  .home-page-body .path-container{
+    padding-left: 6vw;
+  }
+  .main {
+    padding-left: 0;
+  }
   .main.contact-page:before {
     width: 100%;
   }
   .main.products-page,
   .main.contact-page,
-  .main.who-we-are-page
-  {
+  .main.who-we-are-page {
     padding-top: 130px;
   }
   .sidebar {
@@ -177,6 +244,11 @@
     bottom: unset;
     height: auto;
     right: 0;
+    background: #000;
+    .sidebar nav:after,
+    .sidebar .logo:before{
+      display: none;
+    }
     .burger {
       cursor: pointer;
       display: block;
@@ -193,7 +265,7 @@
         width: 100%;
       }
     }
-    .logo {
+    .logo a {
       margin: 10px 0 10px 20px;
       width: 40px;
       float: left;
@@ -234,6 +306,13 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  // .main{
+  //   width: 100%;
+  //   padding-left: 21vw;
+  // }
+}
+
 @media (max-width: 767px) {
   .path-container {
     padding: 0 25px;
@@ -241,11 +320,11 @@
   .main.contact-page:before {
     opacity: 0.4;
   }
-  .main.contact-page h1{
+  .main.contact-page h1 {
     font-size: 7vw;
   }
-  .home-section1{
-    height: 85vh;
+  .home-section1 {
+    height: 65vh;
   }
   .home-section1 .title {
     font-size: 10vw;
@@ -253,113 +332,119 @@
   .home-section1 .description {
     font-size: 4.5vw;
     line-height: 7vw;
-    br{
+    br {
       display: none;
     }
+  }
+  .home-section1 .btn {
+    padding: 20px 40px;
+    font-size: 5vw;
+  }
+  .bottom-background:after {
+    height: 13vw;
+  }
+  .title-type1:before {
+    left: 0;
+    width: 120px;
+  }
+  .title-type1 {
+    padding: 40px 0 40px 0;
+    font-size: 7vw;
+  }
+  .home-section2 .content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .home-section2 .btn-primary {
+    font-size: 4vw;
+    padding: 20px 60px;
+  }
+  .home-section2 .section-image {
+    max-width: 100%;
+  }
+  .home-section3 .content {
+    padding: 20px;
+  }
+  .home-section3 .content .owl-carousel {
+    padding: 10px;
+  }
+  .home-section3 .content .owl-carousel .owl-item .item-title {
+    font-size: 5vw;
+  }
+  .home-section3 .content .owl-carousel .owl-item .item-desc {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .home-section4 .content p {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    transform: scale(0.5) rotate(-45deg);
+    transform-origin: right;
+    right: -20px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    transform: scale(0.5) rotate(135deg);
+    transform-origin: left;
+    left: -20px;
+  }
+  .home-section4 .btn-primary {
+    font-size: 4vw;
+    padding: 20px 60px;
+  }
+  .home-section5 .item .item-title {
+    font-size: 5vw;
+  }
+  .home-section5 .item .item-desc {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .home-section5 .item:nth-child(even) .path-container > .row {
+    flex-direction: column-reverse;
+  }
+  .main.products-page h1 {
+    font-size: 8vw;
+    margin-bottom: 15px;
+  }
+  .main.products-page .products-desc {
+    font-size: 16px;
+  }
+  .main.products-page .products-list .product-list-item {
+    margin-bottom: 30px;
+    padding: 30px 30px 30px;
+  }
+  .main.products-page .products-list > div {
+    margin-bottom: 30px;
+  }
+  .main.products-page .products-list .product-list-item h3 {
+    margin-top: 30px;
+    font-size: 6vw;
+    margin-bottom: 20px;
+  }
+  .main.products-page .products-list .product-list-item .product-link {
+    font-size: 4.5vw;
+    padding: 15px;
+  }
+  .main.who-we-are-page h1 {
+    font-size: 9vw;
+    margin-bottom: 30px;
+  }
+  .main.who-we-are-page p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main.who-we-are-page .who-we-are-img {
+    top: 50px;
+  }
+  .main.contact-page .form-control {
+    font-size: 16px;
+    padding: 15px;
+  }
 }
-.home-section1 .btn {
-  padding: 20px 40px;
-  font-size: 5vw;
-}
-.bottom-background:after{
-  height: 13vw;
-}
-.title-type1:before{
-  left: 0;
-  width: 120px;
-}
-.title-type1 {
-  padding: 40px 0 40px 0;
-  font-size: 7vw;
-}
-.home-section2 .content{
-  font-size: 16px;
-  line-height: 24px;
-}
-.home-section2 .btn-primary {
-  font-size: 4vw;
-  padding: 20px 60px;
-}
-.home-section2 .section-image{
-  max-width: 100%;
-}
-.home-section3 .content{
-  padding: 20px;
-}
-.home-section3 .content .owl-carousel{
-  padding: 10px;
-}
-.home-section3 .content .owl-carousel .owl-item .item-title{
-  font-size: 5vw;
-}
-.home-section3 .content .owl-carousel .owl-item .item-desc{
-  font-size: 4vw;
-  line-height: 6vw;
-}
-.home-section4 .content p{
-  font-size: 4vw;
-  line-height: 6vw;
-}
-.owl-carousel .owl-nav .owl-next span {
-  transform: scale(0.5) rotate(-45deg);
-  transform-origin: right;
-right: -20px;
-}
-.owl-carousel .owl-nav .owl-prev span {
-  transform: scale(0.5) rotate(135deg);
-  transform-origin: left;
-  left: -20px;
-}
-.home-section4 .btn-primary{
-  font-size: 4vw;
-  padding: 20px 60px;
-}
-.home-section5 .item .item-title{
-  font-size: 5vw;
-}
-.home-section5 .item .item-desc{
-  font-size: 4vw;
-  line-height: 6vw; 
-}
-.home-section5 .item:nth-child(even) .path-container > .row{
-  flex-direction: column-reverse;
-}
-.main.products-page h1{
-  font-size: 8vw;
-  margin-bottom: 15px;
-}
-.main.products-page .products-desc{
-  font-size: 16px;
-}
-.main.products-page .products-list .product-list-item {
-  margin-bottom: 30px;
-  padding: 30px 30px 30px;
-}
-.main.products-page .products-list > div{
-  margin-bottom: 30px;
-}
-.main.products-page .products-list .product-list-item h3 {
-  margin-top: 30px;
-  font-size: 6vw;
-  margin-bottom: 20px;
-}
-.main.products-page .products-list .product-list-item .product-link{
-  font-size: 4.5vw;
-  padding: 15px;
-}
-.main.who-we-are-page h1{
-  font-size: 9vw;
-  margin-bottom: 30px;
-}
-.main.who-we-are-page p{
-  font-size: 16px;
-  line-height: 24px;
-}
-.main.who-we-are-page .who-we-are-img{
-  top: 50px;
-}
-.main.contact-page .form-control{
-  font-size: 16px;
-  padding: 15px;
-}
+
+@media(min-width:1920px){
+  .home-section2 .section-image{
+    max-width: 1050px;
+  }
 }
