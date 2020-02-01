@@ -1,4 +1,5 @@
 @media (min-width: 768px) and (max-width: 1919px) {
+
   .sidebar {
     width: 21vw;
 
@@ -368,6 +369,15 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .about{
+    padding-top: 130px;
+  }
+  .about .about-desc,
+  .about .hero-sub-desc,
+  .about .about-sec2 .about-sec2-subsec p
+  {
+    font-size: 1.3vw;
+  }
   .product-key-features .key-item h4 {
     font-size: 1.7vw;
     line-height: 2vw;
@@ -386,6 +396,28 @@
 }
 
 @media (max-width: 767px) {
+  .about{
+    padding-top: 150px;
+    h1{
+      font-size: 10vw;
+    }
+  }
+  .about .about-sec2 .sec-right-img{
+    width: 100%;
+    right: 0;
+    opacity: 0.5;
+  }
+  .about .about-desc,
+  .about .hero-sub-desc{
+    font-size: 4.5vw;
+  }
+  .about .about-sec2 .about-sec2-subsec p{
+    font-size: 4.5vw;
+    line-height: 7vw;
+  }
+  .about .hero-img{
+    top: 0;
+  }
   .single-product h1{
     font-size: 5vw;
     margin-bottom: 30px;
