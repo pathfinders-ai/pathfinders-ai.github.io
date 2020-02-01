@@ -1,10 +1,6 @@
 @import "fonts";
-@import "home";
 @import "components";
-@import "products";
-@import "who-we-are";
-@import "contact";
-@import "about";
+
 
 body {
   font-family: $poppins;
@@ -184,4 +180,10 @@ body {
   }
 }
 
+@import "home";
+
+@import "products";
+@import "who-we-are";
+@import "contact";
+@import "about";
 @import "responsive";
