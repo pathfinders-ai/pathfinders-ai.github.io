@@ -1,0 +1,44 @@
+.main {
+  &.who-we-are-page {
+    min-height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    color: #fff;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7600e6+0,38006e+100 */
+    background: rgb(118, 0, 230); /* Old browsers */
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(118, 0, 230, 1) 0%,
+      rgba(56, 0, 110, 1) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(118, 0, 230, 1) 0%,
+      rgba(56, 0, 110, 1) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      45deg,
+      rgba(118, 0, 230, 1) 0%,
+      rgba(56, 0, 110, 1) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7600e6', endColorstr='#38006e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    h1 {
+      font-size: 80px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 90px;
+      color: #fff;
+    }
+    p{
+      font-size: 24px;
+      line-height: 40px;
+      font-weight: 400;
+    }
+    .who-we-are-img{
+      position: relative;
+      top: -50px;
+    }
+  }
+}

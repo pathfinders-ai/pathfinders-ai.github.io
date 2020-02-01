@@ -1,0 +1,228 @@
+@media (min-width: 768px) and (max-width: 1919px) {
+  .sidebar {
+    width: 21vw;
+
+    nav {
+      ul {
+        li {
+          &.active {
+          }
+          a {
+            font-size: 1vw;
+            font-weight: 300;
+            padding: 1.1vw 0;
+            padding-left: 4.6vw;
+          }
+        }
+      }
+    }
+  }
+  .main {
+    width: calc(100% - 21vw);
+  }
+  .path-container {
+    padding: 0 6vw;
+  }
+  .home-section1 .title {
+    font-size: 5.2vw;
+    margin-bottom: 1.5vw;
+  }
+  .home-section1 .description {
+    font-size: 1.25vw;
+    line-height: 2vw;
+  }
+  .home-section1 .btn {
+    padding: 1.3vw 3.1vw;
+    font-size: 1vw;
+  }
+  .title-type1:before {
+    left: -1.9vw;
+    width: 9.9vw;
+  }
+  .title-type1 {
+    padding: 3.64vw 0 3.64vw 0;
+    font-size:1.9vw;
+}
+.home-section2 .content {
+  font-size:1vw;
+  line-height:1.77vw;
+}
+.home-section2{
+  padding-bottom:15.62vw ;
+}
+.home-section2 .btn-primary{
+  font-size: 1vw;
+    padding: 1vw 3.9vw;
+    margin-top: 1.5vw;
+}
+
+.home-section3 .content .owl-carousel .owl-item .item-img {
+  width: 7.81vw;
+  height: 7.81vw;
+  padding: 1.8vw;
+  margin-bottom:1.9vw;
+}
+.home-section3 .content .owl-carousel{
+  padding:0 6.77vw;
+}
+.home-section3 .content{
+  padding:5.2vw 3.1vw;
+}
+.home-section3 .content .owl-carousel .owl-item .item-desc {
+  font-size:0.94vw;
+  line-height:2vw;
+}
+.home-section4 {
+  padding: 5.2vw 2.6vw;
+}
+.home-section4 .content p {
+  font-size: 1vw;
+  line-height: 2vw;
+}
+.home-section4 .btn-primary{
+  font-size: 1vw;
+    padding: 1vw 3.9vw;
+    margin-top: 1.5vw;
+}
+.home-section5 {
+  padding: 2.5vw 0;
+}
+.home-section5 .item .item-title {
+  margin-bottom: 0.7vw;
+  font-size: 1.25vw;
+}
+.home-section5 .item .item-desc {
+  font-size:1vw;
+  line-height: 2vw;
+}
+.sidebar .copyright{
+  font-size: 0.7vw;
+}
+.bottom-background:after{
+  height: 13.02vw;
+}
+.owl-carousel .owl-nav .owl-next span{
+transform: scale(0.7) rotate(-45deg);
+}
+.owl-carousel .owl-nav .owl-prev span{
+  transform: scale(0.7) rotate(135deg);
+
+}
+.main.products-page {
+  min-height: 100vh;
+  padding-top:3.65vw;
+  padding-bottom: 3.65vw;
+}
+.main.products-page h1 {
+  font-size: 4.16vw;
+  margin-bottom:1.56vw;
+}
+.main.products-page .products-desc{
+  font-size: 1vw;
+}
+.main.products-page .products-list {
+  margin-top: 2.6vw;
+}
+.main.products-page .products-list .product-list-item {
+  margin-bottom: 1.56vw;
+  padding:3.65vw 1.56vw 2.6vw;
+}
+.main.products-page .products-list .product-list-item img{
+  height: 7.3vw;
+}
+.main.products-page .products-list .product-list-item h3 {
+  margin-top: 4.16vw;
+  font-size: 1.35vw;
+  margin-bottom: 1.56vw;
+}
+.main.products-page .products-list .product-list-item p{
+  font-size: 0.84vw;
+}
+.main.products-page .products-list .product-list-item .product-link {
+  padding: 1vw;
+  font-size: 0.9vw;
+}
+.main.contact-page h1 {
+  font-size:3.1vw;
+  font-weight: bold;
+  margin-bottom: 2.6vw;
+}
+}
+
+@media (max-width: 991px) {
+  .main.contact-page:before{
+    width: 100%;
+  }
+  .main.products-page{
+    padding-top: 130px;
+  }
+  .sidebar {
+    width: 100%;
+    bottom: unset;
+    height: auto;
+    right: 0;
+    .burger {
+      cursor: pointer;
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: transparent;
+      border: none;
+      outline: none;
+      float: right;
+      padding: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+      img {
+        width: 100%;
+      }
+    }
+    .logo {
+      margin: 10px 0 10px 20px;
+      width: 40px;
+      float: left;
+    }
+    nav {
+      display: none;
+      ul {
+        padding: 20px 0;
+      }
+      ul li {
+        a {
+          padding: 10px 20px;
+          font-size: 16px;
+        }
+        &.active {
+          background: #000;
+          a {
+            color: #fff;
+            font-weight: 700;
+          }
+        }
+        &:before {
+          display: none !important;
+        }
+        a:after,
+        a:before {
+          display: none !important;
+        }
+      }
+    }
+    .copyright {
+      display: none;
+    }
+  }
+  .main {
+    width: 100%;
+    padding-top: 75px;
+  }
+}
+
+@media (max-width:767px){
+  .path-container{
+    padding:0 25px;
+  }
+  .main.contact-page:before{
+    opacity: 0.4;
+  }
+}

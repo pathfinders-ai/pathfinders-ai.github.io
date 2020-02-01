@@ -1,0 +1,72 @@
+.main {
+  &.products-page {
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    h1 {
+      font-size: 80px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    .products-desc {
+      font-size: 20px;
+    }
+    .products-list {
+      margin-top: 50px;
+      .product-list-item {
+          margin-bottom: 30px;
+        padding: 70px 30px 50px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 71px 67px rgba(#9f6ce3, 0.04);
+        img {
+          height: 140px;
+          width: auto;
+        }
+        h3 {
+          margin-top: 80px;
+          font-size: 26px;
+          font-weight: bold;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+        .product-link {
+          text-decoration: none !important;
+          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9f6ce3+0,b28be6+100 */
+          background: rgb(159, 108, 227); /* Old browsers */
+          background: -moz-linear-gradient(
+            45deg,
+            rgba(159, 108, 227, 1) 0%,
+            rgba(178, 139, 230, 1) 100%
+          ); /* FF3.6-15 */
+          background: -webkit-linear-gradient(
+            45deg,
+            rgba(159, 108, 227, 1) 0%,
+            rgba(178, 139, 230, 1) 100%
+          ); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(
+            45deg,
+            rgba(159, 108, 227, 1) 0%,
+            rgba(178, 139, 230, 1) 100%
+          ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f6ce3', endColorstr='#b28be6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+          border-radius: 50px;
+          color: #fff;
+          padding:20px;
+          width: 100%;
+          display: block;
+          box-shadow: 0px 13px 40px rgba(#000,0.25);
+          margin-top: 10px;
+          text-transform: uppercase;
+          font-size: 17px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.main {
+  &.contact-page {
+    min-height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    color: #fff;
+    &:before {
+      content: " ";
+      background: url(../assets/592-min.jpg) no-repeat;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      height: 100%;
+      background-size: cover;
+      width: calc(100% - 16vw);
+      z-index: -1;
+      background-position: top right;
+    }
+    h1{
+      color:#000;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+    .form-control{
+      padding: 20px 30px;
+      height: auto;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+    .btn-primary{
+      padding:20px 60px;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+  }
+}
