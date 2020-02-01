@@ -288,11 +288,11 @@ body {
   color: #fff;
   background: url("../assets/Image 7@2x.jpg") no-repeat;
   background-size: cover;
-  height: 60vw;
+  height: 55vw;
 }
 
 .home-section1:after {
-  bottom: -13vh;
+  bottom: -1px;
 }
 
 .home-section1 .title {
