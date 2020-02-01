@@ -707,13 +707,17 @@ body {
     font-weight: bold;
     margin-bottom: 2.6vw;
   }
+  .main.contact-page {
+    padding-top: 6.77vw;
+  }
 }
 
 @media (max-width: 991px) {
   .main.contact-page:before {
     width: 100%;
   }
-  .main.products-page {
+  .main.products-page,
+  .main.contact-page {
     padding-top: 130px;
   }
   .sidebar {
@@ -782,6 +786,96 @@ body {
   }
   .main.contact-page:before {
     opacity: 0.4;
+  }
+  .main.contact-page h1 {
+    font-size: 7vw;
+  }
+  .home-section1 {
+    height: 85vh;
+  }
+  .home-section1 .title {
+    font-size: 10vw;
+  }
+  .home-section1 .description {
+    font-size: 4.5vw;
+    line-height: 7vw;
+  }
+  .home-section1 .description br {
+    display: none;
+  }
+  .home-section1 .btn {
+    padding: 20px 40px;
+    font-size: 5vw;
+  }
+  .bottom-background:after {
+    height: 13vw;
+  }
+  .title-type1:before {
+    left: 0;
+    width: 120px;
+  }
+  .title-type1 {
+    padding: 40px 0 40px 0;
+    font-size: 7vw;
+  }
+  .home-section2 .content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .home-section2 .btn-primary {
+    font-size: 4vw;
+    padding: 20px 60px;
+  }
+  .home-section2 .section-image {
+    max-width: 100%;
+  }
+  .home-section3 .content {
+    padding: 20px;
+  }
+  .home-section3 .content .owl-carousel {
+    padding: 10px;
+  }
+  .home-section3 .content .owl-carousel .owl-item .item-title {
+    font-size: 5vw;
+  }
+  .home-section3 .content .owl-carousel .owl-item .item-desc {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .home-section4 .content p {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    -webkit-transform: scale(0.5) rotate(-45deg);
+            transform: scale(0.5) rotate(-45deg);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    right: -20px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    -webkit-transform: scale(0.5) rotate(135deg);
+            transform: scale(0.5) rotate(135deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    left: -20px;
+  }
+  .home-section4 .btn-primary {
+    font-size: 4vw;
+    padding: 20px 60px;
+  }
+  .home-section5 .item .item-title {
+    font-size: 5vw;
+  }
+  .home-section5 .item .item-desc {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .home-section5 .item:nth-child(even) .path-container > .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 /*# sourceMappingURL=main.css.map */
