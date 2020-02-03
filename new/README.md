@@ -1,2 +1,0 @@
-# Pathfinders
-PathfindersAi
