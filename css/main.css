@@ -693,7 +693,7 @@ body {
   font-size: 80px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   color: #fff;
 }
 
@@ -706,6 +706,52 @@ body {
 .main.who-we-are-page .who-we-are-img {
   position: relative;
   top: -50px;
+}
+
+.main.who-we-are-page .team-members {
+  margin-bottom: 150px;
+}
+
+.main.who-we-are-page .team-members .member {
+  height: 100%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  padding: 30px 10px;
+}
+
+.main.who-we-are-page .team-members .member:hover {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.2);
+}
+
+.main.who-we-are-page .team-members .member .member-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+}
+
+.main.who-we-are-page .team-members .member .member-avatar img {
+  width: 100%;
+}
+
+.main.who-we-are-page .team-members .member h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.main.who-we-are-page .team-members .member h6 {
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .main.contact-page {
@@ -941,6 +987,15 @@ body {
   }
   .main.who-we-are-page {
     padding-top: 6.7vw;
+  }
+  .main.who-we-are-page .team-members .member h3 {
+    font-size: 1vw;
+  }
+  .main.who-we-are-page .team-members .member h6 {
+    font-size: 0.8vw;
+  }
+  .main.who-we-are-page .team-members {
+    margin-bottom: 7.8vw;
   }
   .main.who-we-are-page h1 {
     font-size: 4.16vw;
