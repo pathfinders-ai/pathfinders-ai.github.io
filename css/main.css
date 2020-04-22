@@ -471,7 +471,7 @@ body {
 
 .main.products-page .products-list .product-list-item {
   margin-bottom: 30px;
-  padding: 70px 30px 50px;
+  padding: 70px 50px 50px;
   background: #fff;
   border-radius: 20px;
   -webkit-box-shadow: 0px 71px 67px rgba(159, 108, 227, 0.04);
@@ -488,11 +488,13 @@ body {
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 30px;
+  line-height: 46px;
 }
 
 .main.products-page .products-list .product-list-item p {
   font-size: 16px;
   margin-bottom: 0;
+  line-height: 32px;
 }
 
 .main.products-page .products-list .product-list-item .product-link {
@@ -504,7 +506,6 @@ body {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #9f6ce3 0%, #b28be6 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f6ce3', endColorstr='#b28be6',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   border-radius: 50px;
   color: #fff;
@@ -547,7 +548,8 @@ body {
 }
 
 .single-product h1 {
-  font-size: 45px;
+  font-size: 38px;
+  line-height: 50px;
   margin-bottom: 50px;
   font-weight: bold;
 }
@@ -575,6 +577,8 @@ body {
   font-size: 22px;
   letter-spacing: 1px;
   opacity: 0.8;
+  margin-bottom: 13vw;
+  display: inline-block;
 }
 
 .single-product .dl-catalog img {
@@ -685,8 +689,6 @@ body {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #7600e6 0%, #38006e 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7600e6', endColorstr='#38006e',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
 }
 
 .main.who-we-are-page h1 {
